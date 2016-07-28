@@ -111,7 +111,7 @@ def build_google_api_request_body(sample_rate, base64_encoded_file, encoding)
     config: {
       encoding: encoding,
       sample_rate: sample_rate,
-      language_code: 'ja-JP',
+      language_code: ENV['LANGUAGE_CODE'],
       max_alternatives: 1
     },
     audio: {

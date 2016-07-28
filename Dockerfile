@@ -3,6 +3,7 @@ FROM ruby:2.3.1
 MAINTAINER dogwood008
 
 ENV API_KEY YourAPIKeyHere
+ENV LANGUAGE_CODE ja-JP
 
 # Install sox
 RUN apt-get update
